@@ -7,7 +7,7 @@ void Member_02(){
   
 }
 void Member_03(){
-  
+  printf("75 HUẾ xin chào mọi người");
 }
 
 int main(int argc, const char** argv) {
