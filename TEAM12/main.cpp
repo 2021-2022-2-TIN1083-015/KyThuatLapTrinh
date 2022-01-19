@@ -1,7 +1,7 @@
-#include <stdio.h>
+#include <bits/stdc++.h>
 
 void Member_01(){
-
+  printf("hi, Mai Van Vu");
 }
 void Member_02(){
   
