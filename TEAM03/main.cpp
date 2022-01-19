@@ -1,4 +1,6 @@
-#include <stdio.h>
+#include <bits/stdc++.h>
+
+using namespace std;
 
 void Member_01(){
 
@@ -7,7 +9,7 @@ void Member_02(){
   
 }
 void Member_03(){
-  
+  cout << "I'm Duck";
 }
 
 int main(int argc, const char** argv) {
