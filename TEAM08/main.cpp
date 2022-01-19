@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void Member_01(){
-
+  printf ("Hi,Lân/n");
 }
 void Member_02(){
   
