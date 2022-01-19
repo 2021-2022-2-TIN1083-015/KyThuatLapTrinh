@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 void Member_01(){
-  printf("Hi, Mình là Huỳnh Quân\n");
+  printf("\nHi, Mình là Huỳnh Quân");
 }
 void Member_02(){
-  
+  printf("To ten Thanh \n")
 }
 void Member_03(){
   
