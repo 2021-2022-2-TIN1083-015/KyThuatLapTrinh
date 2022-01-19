@@ -1,10 +1,12 @@
 #include <stdio.h>
+#include <iostream>
+using namespace std;
 
 void Member_01(){
-
+  cout << "Nguyen Van Nam xin chao moi nguoi!!!";
 }
 void Member_02(){
-  
+
 }
 void Member_03(){
   

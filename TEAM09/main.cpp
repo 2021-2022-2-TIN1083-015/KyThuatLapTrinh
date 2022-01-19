@@ -1,7 +1,8 @@
 #include <stdio.h>
-
+#include <iostream>
+using namespace std;
 void Member_01(){
-
+  cout << "hello, Quyền";
 }
 void Member_02(){
   
