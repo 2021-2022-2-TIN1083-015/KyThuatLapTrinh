@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 void Member_01(){
+  printf("Hi, PhamMinhTuan\n");
 
 }
 void Member_02(){
-  
+  printf("Xin chao cac ban nhom 11\n");
 }
 void Member_03(){
   
