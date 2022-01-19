@@ -5,7 +5,7 @@ void Member_01(){
 
 }
 void Member_02(){
-  
+  printf("Xin chao cac ban nhom 11\n");
 }
 void Member_03(){
   
