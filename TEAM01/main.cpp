@@ -4,7 +4,7 @@ void Member_01(){
 
 }
 void Member_02(){
-  
+   printf("\nMinh Chau chao thay a ");
 }
 void Member_03(){
   printf("\nNgoc Bao chao Thay :vv ");
