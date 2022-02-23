@@ -2,6 +2,7 @@
 
 void Member_01(){
   printf("\nDieu Anh chao thay! ");
+  printf("HELLO WINDOW\n");
 }
 void Member_02(){
    printf("\nMinh Chau chao thay a ");
