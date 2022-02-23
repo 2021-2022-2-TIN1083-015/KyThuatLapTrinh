@@ -2,13 +2,13 @@
 
 void Member_01(){
   printf("\nDieu Anh chao thay! ");
-  printf("HELLO WINDOW\n");
+  printf("\nHELLO WINDOW");
 }
 void Member_02(){
    printf("\nMinh Chau chao thay a ");
 }
 void Member_03(){
-  printf("\nNgoc Bao chao Thay :vv ");
+  printf("\nNgoc Bao chao Thay :vv ");  
 }
 
 int main(int argc, const char** argv) {
