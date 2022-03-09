@@ -4,7 +4,7 @@ void Member_01(){
   cout<<"Hi, Mai Van Vu";
 }
 void Member_02(){
-  
+   cout<<"Le Thi Huynh Trang"; 
 }
 void Member_03(){
   
