@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void Member_01(){
-  printf("\nHi, Mình là Huỳnh Quân");
+  printf("\nHi, Minh la Huynh Quan");
 }
 void Member_02(){
   
