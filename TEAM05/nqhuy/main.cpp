@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "..\..\_src\Log.h"
 
-int main(){
+int main(const char* col,const char* fmt){
   printf("Welcome C/C++\n");
   LOG_ET("Logger Error\n");
   LOG_WT("Logger Warning\n");
