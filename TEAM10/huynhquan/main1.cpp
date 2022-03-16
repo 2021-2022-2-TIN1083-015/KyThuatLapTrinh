@@ -1,15 +1,13 @@
 #include <string.h>
 #include <stdarg.h>
-
 #include<bits/stdc++.h>
 #include "../../_src/Log.h"
 #include "../../_src/Utils.h"
 using namespace std;
 int main(){
 
-
 LOG_D("\n**************\n");
-char ten[]="Duong Minh Chau";
+char ten[]="Huynh Quan";
 char lop[]="KTLT -N15";
 int ngay = 16;
 int thang = 3;
