@@ -4,14 +4,14 @@ using namespace std;
 
 int main(){
   printf("Welcome KTLT\n");
-  LOG_ET("Welcom A\n");
-  LOG_WT("Welcom B\n");
-  LOG_IT("Welcom C\n");
-  LOG_DT("Welcom D\n");
-  LOG_E("Welcom E\n");
-  LOG_W("Welcom F\n");
-  LOG_I("Welcom G\n");
-  LOG_D("Welcom H\n");
+  LOG_ET("Hi\n");
+  LOG_WT("Nguyen\n");
+  LOG_IT("Thi\n");
+  LOG_DT("Dieu\n");
+  LOG_E("Anh\n");
+  LOG_W("Halo F\n");
+  LOG_I("Welcom \n");
+  LOG_D("Bye\n");
 
   return 0;
 }
