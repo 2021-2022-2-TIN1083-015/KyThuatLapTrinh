@@ -2,8 +2,6 @@
 #include <string>
 #include "..\..\_src\Log.h"
 #include "..\..\_src\Utils.h" 
-using namespace std;
-
 int main()
 {
     LOG_D("\n****************\n");
