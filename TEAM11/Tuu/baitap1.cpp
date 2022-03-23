@@ -1,11 +1,11 @@
 #include <bits/stdc++.h>
-#include "..\..\_src\Log.h"
-#include "..\..\_src\Utils.h"
+#include "../../_src/Log.h"
+#include "../../_src/Utils.h"
 using namespace std;
 
 int main ()
 {   
-    LOG_D("\n******************\n");
+    LOG_D("\n****************\n");
     char ten[] = "Huynh Thanh Tuu";
     char lop[] = "KTLT_N15";
     int thang = 3;
