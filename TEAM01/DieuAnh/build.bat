@@ -1,7 +1,7 @@
-@echo offset
-set SRC=..\..\_src\
+@echo off
+set SRC=..\..\_src
 
-g++ .\main.cpp ^
+g++ .\main1.cpp ^
     %SRC%\Log.cpp ^
-        %SRC%\Utils.cpp ^
-        -o t.exe
+    %SRC%\Utils.cpp ^
+-o t.exe
