@@ -1,4 +1,4 @@
-#include <stdio.h>
+//#include <stdio.h>
 #include <string>
 #include "..\..\_src\Log.h"
 #include "..\..\_src\Utils.h"
@@ -17,3 +17,4 @@ int main()
         LOG_WT("%d [%s]\n", i, arrName[i].c_str());
     return 0;
 }
+
