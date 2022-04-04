@@ -1,0 +1,10 @@
+nguyen quang hoa
+
+
+
+#include <stdio.h>
+
+int main() {
+   printf("Xin chao cac ban!");
+   return 0;
+}
