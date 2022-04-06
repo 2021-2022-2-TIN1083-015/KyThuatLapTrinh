@@ -18,16 +18,6 @@ void solve(string s){
 }
 int main()
 {
-    // char ten[] = "Bai: Tong so trong xau";
-    // char lop[] = "KTLT - N14";
-    // string name = StringFormat("%s\n %s",ten, lop);
-    // LOG_IT("%s",name.c_str());
-    // vector<string> arrName = SplitString(name.c_str()," ");
-    // int iCnt= (int) arrName.size();
-    // for(int i=0;i<iCnt;i++){
-    //     LOG_WT("%d [%s]\n",i,arrName[i].c_str()); 
-    // }
-    // string s; getline(cin,s);
     string s; getline(cin,s);
     string tong="Bai: Tong so trong xau";
     LOG_WT("%s\n",tong.c_str());
