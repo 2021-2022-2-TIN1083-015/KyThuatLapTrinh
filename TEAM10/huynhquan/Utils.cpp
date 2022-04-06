@@ -6,7 +6,7 @@ int main()
 {
 LOG_D("\n**************\n");
 char ten[]="Huynh Quan";
-char lop[]="KTLT -N15";
+char lop[]="KTLT - N15";
 int ngay = 23;
 int thang = 3;
 int nam = 2022;

@@ -2,9 +2,9 @@
 #include "../../_src/Utils.h"
 #include <bits/stdc++.h>
 using namespace std;
-
+ 
 int main () 
-{
+{ 
 	string s;
     LOG_WT("Bai: Tong so trong xau\n");
     LOG_IT("Ten: Nguyen Thi Dieu Anh\n");
@@ -29,4 +29,4 @@ int main ()
 	}
 	cout<<Tong<<endl;
 	return 0;
-}
+} 

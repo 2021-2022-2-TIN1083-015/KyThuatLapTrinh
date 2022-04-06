@@ -1,7 +1,7 @@
 @echo off
 set SRC=..\..\_src\
 
-g++ .\baitap1.cpp ^
+g++ .\ojhusc.cpp ^
     %SRC%\Log.cpp ^
     %SRC%\Utils.cpp ^
 -o t.exe
