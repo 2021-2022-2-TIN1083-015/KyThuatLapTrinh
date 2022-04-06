@@ -2,7 +2,7 @@
 #include "../../_src/Utils.h"
 #include <bits/stdc++.h>
 using namespace std;
-
+ 
 int main () 
 {
 	string s;
@@ -29,4 +29,4 @@ int main ()
 	}
 	cout<<Tong<<endl;
 	return 0;
-}
+} 
