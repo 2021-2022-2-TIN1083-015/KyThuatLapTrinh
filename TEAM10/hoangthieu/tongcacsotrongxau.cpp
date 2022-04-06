@@ -27,7 +27,6 @@ int main()
                } 
           else i++; 
      }
-    
     LOG_ET("Tong so :");
     LOG_ET("tong"); 
  
