@@ -1,12 +1,12 @@
 #include <bits/stdc++.h>
-#include "../../_src/Log.h"
-#include "../../_src/Utils.h"
+#include "..\..\_src\Log.h"
+#include "..\..\_src\Utils.h"
 using namespace std;
 
 int main ()
 {   
-    LOG_D("\n*****************\n");
-    char ten[] = "Huynh Thanh Tuu";
+    LOG_D("\n******************\n");
+    char ten[] = "Dang Ngoc Toan";
     char lop[] = "KTLT_N15";
     int thang = 3;
     int nam = 2022;
