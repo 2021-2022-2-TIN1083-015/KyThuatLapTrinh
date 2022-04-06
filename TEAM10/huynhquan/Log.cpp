@@ -4,10 +4,10 @@
 using namespace std;
 
 int main(){
-  printf("Welcome KTLT\n");
-  LOG_ET("Hi\n");
-  LOG_WT("Huynh\n");
-  LOG_IT("Quan\n");
-  LOG_DT("Byeee\n");
+  printf("Hello\n");
+  LOG_ET("Huynh\n");
+  LOG_WT("Quan\n");
+  LOG_IT("Bye\n");
+  
   return 0;
 }
