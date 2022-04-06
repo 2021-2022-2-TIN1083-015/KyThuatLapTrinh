@@ -6,8 +6,8 @@ using namespace std;
 int main ()
 {   
     LOG_WT("Bai: Tong so trong xau\n");
-    LOG_IT("Ten: Huynh Thanh Tuu \n");
-    LOG_IT("Msv: 21T1080052 \n");
+    LOG_IT("Ten: Huynh Thanh Tuu\n");
+    LOG_IT("Msv: 21T1080052\n");
     LOG_DT("-----\n");
     LOG_DT("Nhap chuoi: ");
     string s;
