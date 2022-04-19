@@ -1,6 +1,6 @@
+#include <stdio.h>
 #include "../../_src/Log.h"
 #include "../../_src/Utils.h"
-#include <bits/stdc++.h>
 using namespace std;
 
 int main () 
@@ -11,12 +11,12 @@ int main ()
     LOG_IT("Msv: 21T1080017\n");
     LOG_DT("-----\n");
     LOG_DT("Nhap chuoi:");
-	getline (cin,s);
+	getline(cin, s);
 	int sum, tong=0;
-	for (int i=0;i<s.size();i++) {
+	for (int i=0; i<s.size(); i++) {
 		if (isdigit(s[i])) {
-			sum=0;
-			for (int j=i+1;j<s.size();j++) {
+			sum = 0;
+			for (int j=i+1; j<s.size(); j++) {
 				if (isdigit(s[j])) {
 					sum++;
 				}
@@ -24,10 +24,9 @@ int main ()
 					break;
 				}
 			}
-			tong+=(s[i]-'0')*pow(10,sum); 
+			tong+= (s[i]-'0') * pow(10,sum); 
 		}
 	}
     LOG_WT("Tong so:"); cout << tong << endl;
-	
 	return 0;
 }
