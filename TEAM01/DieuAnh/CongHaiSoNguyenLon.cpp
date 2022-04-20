@@ -5,6 +5,17 @@
 using namespace std;
 
 int main(){
+    LOG_WT("%s\n",tong.c_str());
+		string ten="Ten: Nguyen Thi Dieu Anh";
+    LOG_IT("%s\n",ten.c_str());
+	    string msv="Msv: 21T1020113";
+    LOG_IT("%s\n",msv.c_str());
+        string cach="-----";
+    LOG_DT("%s\n",cach.c_str());
+		string nhap="Nhap chuoi: ";
+    LOG_DT("%s",nhap.c_str());
+		string s;
+			getline(cin,s);
 	string x1, x2, ketqua;
 	int nho=0, kq=0;
 	cin >> x1 >> x2;  
@@ -20,17 +31,6 @@ int main(){
     		ketqua += nho + 48;
 	for (int i=ketqua.size()-1; i>=0; i--) 
     	cout << ketqua[i];
-    LOG_WT("%s\n",tong.c_str());
-	    string ten="Ten: Nguyen Thi Dieu Anh";
-    LOG_IT("%s\n",ten.c_str());
-	    string msv="MSV: 21T1020113";
-    LOG_IT("%s\n",msv.c_str());
-        string cach="-----";
-        string tong="Bai: Cong Hai So Nguyen Lon";
-        string nhap="Nhap x1: "+x1;
-    LOG_DT("%s\n",nhap.c_str());
-        string nhap1="Nhap x2: "+x2;
-    LOG_DT("%s\n",nhap1.c_str());
         string so="Tong so: "+ketqua;
     LOG_WT("%s\n",so.c_str());
     return 0;
