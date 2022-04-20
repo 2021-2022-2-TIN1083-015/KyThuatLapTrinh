@@ -37,7 +37,7 @@ int main() {
   std::cin >> a;
   LOG_DT("Nhap so b: ");
   std::cin >> b;
-  LOG_WT("Tong so: %d", tong(a, b));
+  LOG_WT("Tong so: %s", tong(a, b).c_str());
 
   return 0;
 }
