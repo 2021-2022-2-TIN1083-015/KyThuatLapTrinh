@@ -18,7 +18,11 @@ int main(){
  	}
  	if(nho>0)
  	s=char(nho+'0')+s;
+<<<<<<< HEAD
     string tong="Bai: Cong hai so nguyen lon";
+=======
+    string tong="Bai : Cong hai so nguyen lon";
+>>>>>>> 8dbe83185b83e39ca989e97b7e98d021e7ebfca6
     LOG_WT("%s\n",tong.c_str());
     string ten="Ten: Mai Van Vu";
     LOG_IT("%s\n",ten.c_str());
