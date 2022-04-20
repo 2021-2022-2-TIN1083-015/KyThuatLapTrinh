@@ -7,8 +7,8 @@ int main ()
 {
 	string s;
     LOG_WT("Bai: Tong so trong xau\n");
-    LOG_IT("Ten: Nguyen Quoc Huy\n");
-    LOG_IT("Msv: 21T1080017\n");
+    LOG_IT("Ten: Le Quang Phu\n");
+    LOG_IT("Msv: 21T1020590\n");
     LOG_DT("-----\n");
     LOG_DT("Nhap chuoi:");
 	getline(cin, s);
