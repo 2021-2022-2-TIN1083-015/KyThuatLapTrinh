@@ -2,24 +2,23 @@
 #include "../../_src/Log.h"
 #include "../../_src/Utils.h"
 using namespace std;
-void solve(string s){
-	int sum=0;
-	int res=0;
-	for(auto x:s){
-		if(isdigit(x)){
-			sum=sum*10+x-'0';
-		}
-		else {
-			res+=sum; sum=0;
-		}
-	}
-	res+=sum;
-	cout<<res;
-}
-int main()
-{
-    string s; getline(cin,s);
-    string tong="Bai: Tong so trong xau";
+
+int main(){
+	ios::sync_with_stdio(false), cin.tie(nullptr), cout.tie(nullptr);
+  	string a,b;
+  	cin>>a>>b;
+ 	string s="";
+  	int nho=0;
+  	while(a.size()<b.size()) a="0"+a;
+  	while(a.size()>b.size()) b="0"+b;
+  	for(int i=a.size()-1;i>=0;i--){
+   		 int so=(a[i]-48)+(b[i]-48)+nho;
+   		 s=char(so%10+'0')+s;
+   		 nho=so/10;
+ 	}
+ 	if(nho>0)
+ 	s=char(nho+'0')+s;
+    string tong="Bai: Cong hai so nguyen lon";
     LOG_WT("%s\n",tong.c_str());
     string ten="Ten: Mai Van Vu";
     LOG_IT("%s\n",ten.c_str());
@@ -27,11 +26,14 @@ int main()
     LOG_IT("%s\n",msv.c_str());
     string cach="-----";
     LOG_DT("%s\n",cach.c_str());
-    string tmp=s;
-    string nhap="Nhap chuoi: "+tmp;
-    // cout<<s<<endl;
+    string nhap="Nhap a: "+a;
     LOG_DT("%s\n",nhap.c_str());
-    string so="Tong so: ";
-    LOG_WT("%s",so.c_str());
-    solve(s);
+	// cout<<a<<endl;
+    string nhap1="Nhap b: "+b;
+    LOG_DT("%s\n",nhap1.c_str());
+	// cout<<b<<endl;
+    string so="Tong so: "+s;
+    LOG_WT("%s\n",so.c_str());
+    // cout<<s;
+
 }
