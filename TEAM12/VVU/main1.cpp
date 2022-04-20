@@ -18,7 +18,7 @@ int main(){
  	}
  	if(nho>0)
  	s=char(nho+'0')+s;
-    string tong="Bai: Tong so trong xau";
+    string tong="Bai: Cong hai so nguyen lon";
     LOG_WT("%s\n",tong.c_str());
     string ten="Ten: Mai Van Vu";
     LOG_IT("%s\n",ten.c_str());
@@ -35,4 +35,5 @@ int main(){
     string so="Tong so: ";
     LOG_WT("%s",so.c_str());
     cout<<s;
+	cout<<endl;
 }
