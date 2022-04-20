@@ -5,6 +5,9 @@
 using namespace std;
 
 int main(){
+    string x1, x2, ketqua;
+	int nho=0, kq=0;
+	cin >> x1 >> x2;  
     LOG_WT("%s\n",tong.c_str());
 		string ten="Ten: Nguyen Thi Dieu Anh";
     LOG_IT("%s\n",ten.c_str());
@@ -12,13 +15,17 @@ int main(){
     LOG_IT("%s\n",msv.c_str());
         string cach="-----";
     LOG_DT("%s\n",cach.c_str());
-		string nhap="Nhap chuoi: ";
-    LOG_DT("%s",nhap.c_str());
-		string s;
-			getline(cin,s);
-	string x1, x2, ketqua;
-	int nho=0, kq=0;
-	cin >> x1 >> x2;  
+	    string nhapx1="Nhap so x1: ";
+    LOG_DT("%s",nhapx1.c_str());
+	string x1;
+	cin>>x1;
+	    string nhapx2="Nhap so x2: ";
+    LOG_DT("%s",nhapx2.c_str());
+    string x2;
+    cin>>x2;
+    string so="Tong so: ";
+    LOG_WT("%s",so.c_str());
+    string ket_qua;
 	while (x1.size() < x2.size())	
 		x1 = '0' + x1; 
 	while (x2.size() < x1.size())	
@@ -31,7 +38,5 @@ int main(){
     		ketqua += nho + 48;
 	for (int i=ketqua.size()-1; i>=0; i--) 
     	cout << ketqua[i];
-        string so="Tong so: "+ketqua;
-    LOG_WT("%s\n",so.c_str());
     return 0;
 }
