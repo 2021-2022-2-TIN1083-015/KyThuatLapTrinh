@@ -26,14 +26,14 @@ int main(){
     LOG_IT("%s\n",msv.c_str());
     string cach="-----";
     LOG_DT("%s\n",cach.c_str());
-    string nhap="Nhap a: ";
-    LOG_DT("%s",nhap.c_str());
-	cout<<a<<endl;
-    string nhap1="Nhap b: ";
-    LOG_DT("%s",nhap1.c_str());
-	cout<<b<<endl;
-    string so="Tong so: ";
-    LOG_WT("%s",so.c_str());
-    cout<<s;
-	cout<<endl;
+    string nhap="Nhap a: "+a;
+    LOG_DT("%s\n",nhap.c_str());
+	// cout<<a<<endl;
+    string nhap1="Nhap b: "+b;
+    LOG_DT("%s\n",nhap1.c_str());
+	// cout<<b<<endl;
+    string so="Tong so: "+s;
+    LOG_WT("%s\n",so.c_str());
+    // cout<<s;
+
 }
