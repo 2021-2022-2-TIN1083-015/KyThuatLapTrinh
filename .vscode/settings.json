@@ -1,5 +1,6 @@
 {
     "files.associations": {
+<<<<<<< HEAD
         "ktlt_20_4": "c",
         "array": "cpp",
         "atomic": "cpp",
@@ -72,5 +73,8 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "valarray": "cpp"
+=======
+        "ostream": "cpp"
+>>>>>>> bd279169ebb3ba02deb8bb8a5b5d05ec88f7c6e6
     }
 }
