@@ -43,3 +43,4 @@ cin>>b;
 		cout<< sum[i];}
 	return 0;
 }
+
