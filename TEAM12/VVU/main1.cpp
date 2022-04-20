@@ -32,8 +32,8 @@ int main(){
     string nhap1="Nhap b: "+b;
     LOG_DT("%s\n",nhap1.c_str());
 	// cout<<b<<endl;
-    string so="Tong so: ";
-    LOG_WT("%s",so.c_str());
-    cout<<s;
-	cout<<endl;
+    string so="Tong so: "+s;
+    LOG_WT("%s\n",so.c_str());
+    // cout<<s;
+
 }
