@@ -9,9 +9,9 @@ int main()
 int nho=0, kq=0;
 string tong="Bai: Cong hai so nguyen lon";
     LOG_WT("%s\n",tong.c_str());
-		      string ten="Ten: Duong Minh Chau";
+		      string ten="Ten: Le Thi Thanh Nhan";
     LOG_IT("%s\n",ten.c_str());
-	   string msv="Msv: 21T1020119";
+	   string msv="Msv: 21T1020543";
     LOG_IT("%s\n",msv.c_str());
     string cach="-----";
     LOG_DT("%s\n",cach.c_str());
