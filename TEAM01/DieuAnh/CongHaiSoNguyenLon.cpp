@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 #include "../../_src/Log.h"
 #include "../../_src/Utils.h"
+#include <string>
 using namespace std;
 
 int main(){
@@ -19,12 +20,18 @@ int main(){
     		ketqua += nho + 48;
 	for (int i=ketqua.size()-1; i>=0; i--) 
     	cout << ketqua[i];
-    string tong="Bai: Cong Hai So Nguyen Lon";
-    string nhap="Nhap x1: "+x1;
+    LOG_WT("%s\n",tong.c_str());
+	    string ten="Ten: Nguyen Thi Dieu Anh";
+    LOG_IT("%s\n",ten.c_str());
+	    string msv="MSV: 21T1020113";
+    LOG_IT("%s\n",msv.c_str());
+        string cach="-----";
+        string tong="Bai: Cong Hai So Nguyen Lon";
+        string nhap="Nhap x1: "+x1;
     LOG_DT("%s\n",nhap.c_str());
-    string nhap1="Nhap x2: "+x2;
+        string nhap1="Nhap x2: "+x2;
     LOG_DT("%s\n",nhap1.c_str());
-    string so="Tong so: "+ketqua;
+        string so="Tong so: "+ketqua;
     LOG_WT("%s\n",so.c_str());
     return 0;
 }
