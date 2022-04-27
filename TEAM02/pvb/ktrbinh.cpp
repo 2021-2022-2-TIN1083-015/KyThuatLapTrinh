@@ -2,7 +2,7 @@
 #include "../../_src/Log.h"
 using namespace std;
 
-void Cong( string &s1, string &s2){
+void Cong(string &s1,string &s2){
 	string ans = "";
 	if( s1.size() < s2.size() ){
 		swap( s1 , s2 );
