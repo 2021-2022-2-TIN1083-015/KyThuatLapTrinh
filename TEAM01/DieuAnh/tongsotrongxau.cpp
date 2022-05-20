@@ -9,7 +9,7 @@ int main ()
     LOG_WT("Bai: Tong so trong xau\n");
     LOG_IT("Ten: Nguyen Thi Dieu Anh\n");
     LOG_IT("MSV: 21T1020113\n");
-    LOG_DT("-----\n");
+    LOG_DT("-----\n"); 
     LOG_DT("Nhap chuoi:");
 	getline (cin,s);
 	int Sum, Tong=0;
