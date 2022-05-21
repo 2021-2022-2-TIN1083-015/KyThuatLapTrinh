@@ -11,12 +11,12 @@ int main(){
     LOG_IT("%s\n",ten.c_str());
     string msv="Msv: 21T1020465";
     LOG_IT("%s\n",msv.c_str());
-    string nhapxau1="Xau Q: ";
-    LOG_DT("%s\n",nhapxau1.c_str());
+    string nhapxau="Xau Q: ";
+    LOG_DT("%s\n",nhapxau.c_str());
 	string s;
 	cin>>s;
     string nhapxau1="Khoa k ";
-    LOG_DT("%s\n",nhap1.c_str());
+    LOG_DT("%s\n",nhapxau1.c_str());
 	int a; cin>>a;
     string so="Xau s: ";
 	for(int i=a-1;i>=0;i--) cout<<s[i];
