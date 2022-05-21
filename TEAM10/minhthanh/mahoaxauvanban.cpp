@@ -4,13 +4,12 @@ int main(){
     LOG_WT("Bai: Ma Hoa Xau Van Ban\n");
     LOG_IT("Ten: Nguyen Hoang Quang Minh Thanh\n");
     LOG_IT("Msv: 21T1080040\n");
-    LOG_DT("-----\n");
     LOG_DT(" Xau Q :");
     string thanh;
     cin>>thanh;
     int k;
     cin>>k;
-    LOG_DT("Khoa k:")
+    LOG_DT("Khoa k:");
     string a="";
     string b="";
     string ans="";
