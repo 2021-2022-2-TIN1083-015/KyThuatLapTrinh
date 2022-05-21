@@ -10,9 +10,9 @@ int main()
     LOG_IT("Msv: 21T1080052\n");
     LOG_DT("-----\n");
 	string tuu;
-	LOG_DT("Nhap chuoi: "); cin >> tuu;
+	LOG_DT("Xau Q: "); cin >> tuu;
 	int s;
-	LOG_DT("Nhap do dai: "); cin >> s;
+	LOG_DT("Khoa k: "); cin >> s;
 	string m = "";
 	string n = "";
 	string ketqua = "";
@@ -21,5 +21,5 @@ int main()
 	reverse(m.begin(), m.end());
 	reverse(n.begin(), n.end());
 	ketqua = m + n;
-	LOG_WT("Ket qua:"); cout << ketqua;
+	LOG_DT("Xau S: "); LOG_E(""); cout << ketqua;
 }
