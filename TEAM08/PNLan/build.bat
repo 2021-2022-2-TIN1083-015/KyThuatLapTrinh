@@ -1,7 +1,7 @@
 @echo off
 set SRC=..\..\_src
 
-g++ .\main1.cpp ^
+g++ .\Kiemtra.cpp ^
     %SRC%\Log.cpp ^
     %SRC%\Utils.cpp ^
 -o t.exe
