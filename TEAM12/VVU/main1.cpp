@@ -34,6 +34,5 @@ int main(){
 	// cout<<b<<endl;
     string so="Tong so: "+s;
     LOG_WT("%s\n",so.c_str());
-    // cout<<s;
 
 }
