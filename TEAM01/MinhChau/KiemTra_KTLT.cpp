@@ -41,6 +41,6 @@ cin>>b;
 	sum+=tmp+48;
 	for(int i=sum.length()-1;i>=0;i--){
 		cout<< sum[i];}
-	return 0;
+	return 0;  
 }
 
