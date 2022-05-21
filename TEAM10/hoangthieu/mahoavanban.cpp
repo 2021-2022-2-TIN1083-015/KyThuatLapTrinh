@@ -21,7 +21,6 @@ int main()
 	for(int i=a-1;i>=0;i--) {
 		cout<<xau[i];
 	}
-	
 	for(int i=xau.size()-1;i>=a;i--){
 		cout<<xau[i];
 	}  
