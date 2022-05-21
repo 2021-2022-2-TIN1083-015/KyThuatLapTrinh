@@ -1,4 +1,6 @@
 #include<bits/stdc++.h>
+#include "../../_src/Log.h"
+#include "../../_src/Utils.h"
 using namespace std;
 int main(){
     LOG_WT("Bai: Ma Hoa Xau Van Ban\n");
