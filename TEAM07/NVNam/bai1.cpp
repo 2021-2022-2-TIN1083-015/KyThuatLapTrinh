@@ -9,7 +9,7 @@ int main() {
     LOG_IT("Msv: 21T1020049\n");
     std::string chuoi;
     std::cin >> chuoi;
-    LOG_DT("Xau Q: %s\n", chuoi);
+    LOG_DT("Xau Q: %s\n", chuoi.c_str());
     int k;
     std::cin >> k;
     LOG_DT("Khoa k: %d\n", k);
@@ -18,6 +18,5 @@ int main() {
         ket_qua += chuoi[a];
     for (int b = chuoi.size() - 1; b >= k; b--)
         ket_qua += chuoi[b];
-    std::cout << ket_qua;
-    LOG_DT("Xau s: %s\n", ket_qua);
+    LOG_DT("Xau s: %s\n", ket_qua.c_str());
 }
