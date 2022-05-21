@@ -5,16 +5,18 @@ using namespace std;
 
 int main(){
 	string j;
-	int k;
+    ios::sync_with_stdio(false), cin.tie(nullptr), cout.tie(nullptr);
 	LOG_WT("Bai: Ma hoa van ban\n");
     LOG_IT("Ten: Dang Ngoc Toan\n");
     LOG_IT("Msv: 21T1080048\n");
-    LOG_DT("Xau Q: "); getline (cin,j);
-	LOG_DT("Khoa k: "); (cin,k);
-	LOG_WT("Xau S: ");
+    LOG_DT("Xau Q: "); 
+    cin >> j;
+	LOG_DT("Khoa k: ");
+    int k;
+    cin >> k;
     for(int a=k-1;a>=0;a--)
 	cout<<j[a];
 	for(int a=j.length()-1;a>=k;a--)
 	cout<<j[a];
-	return 0;		
+	LOG_WT("Xau S: ");	
 }
