@@ -5,7 +5,7 @@ void Member_01(){
   cout << "hello, Quyền";
 }
 void Member_02(){
-  
+  cout << "hello, Phú";
 }
 void Member_03(){
   printf("48 Đăk Nông xin chào mọi người");
