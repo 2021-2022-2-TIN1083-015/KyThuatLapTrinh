@@ -21,6 +21,5 @@ for(int i = Q.length() - 1; i>= k;i--){
     temp= temp + Q[i];
 }
 cout << temp;
-}
 	return 0;		
 }
