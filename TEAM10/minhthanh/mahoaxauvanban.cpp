@@ -20,6 +20,5 @@ int main(){
     reverse(a.begin(),a.end());
     reverse(b.begin(),b.end());
     ans=a+b;
-    cout<<ans;
-    LOG_DT("Xau S:"); LOG_E("\n");
+    LOG_DT("Xau S:"); LOG_E(""); cout<<ans;
 }
