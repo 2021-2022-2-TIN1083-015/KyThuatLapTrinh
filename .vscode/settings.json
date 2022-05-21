@@ -67,6 +67,11 @@
         "scoped_allocator": "cpp",
         "shared_mutex": "cpp",
         "sstream": "cpp",
+<<<<<<< HEAD
+        "regex": "cpp",
+        "string": "cpp",
+        "iostream": "cpp"
+=======
         "stdexcept": "cpp",
         "streambuf": "cpp",
         "thread": "cpp",
@@ -76,5 +81,6 @@
 =======
         "ostream": "cpp"
 >>>>>>> bd279169ebb3ba02deb8bb8a5b5d05ec88f7c6e6
+>>>>>>> 90e2d4467efa1538dc49fd0572f67b09dcd0b170
     }
 }
