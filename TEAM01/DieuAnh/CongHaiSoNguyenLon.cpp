@@ -11,7 +11,7 @@ int main(){
         string ten = "Ten: Nguyen Thi Dieu Anh";
     LOG_IT("%s\n", ten.c_str());
         string msv = "Msv: 21T1020113";
-    LOG_IT("%s\n", msv.c_str());
+    LOG_IT("%s\n", msv.c_str()); 
         string cach = "-----";
     LOG_DT("%s\n", cach.c_str());
         string nhapx1 = "Nhap so x1: ";
