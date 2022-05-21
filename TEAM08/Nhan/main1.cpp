@@ -1,4 +1,4 @@
-//#include <stdio.h>
+#include <stdio.h>
 #include <string>
 #include "..\..\_src\Log.h"
 #include "..\..\_src\Utils.h"
