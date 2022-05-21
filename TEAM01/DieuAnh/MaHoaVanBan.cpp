@@ -5,8 +5,8 @@ using namespace std;
 string K,Q;
 int main(){
 	LOG_WT("Bai: Ma Hoa Van Ban\n");
-    LOG_IT("Ten: Le Thi Thanh Nhan\n");
-    LOG_IT("Msv: 21T1020543\n");
+    LOG_IT("Ten: Nguyen Thi Dieu Anh\n");
+    LOG_IT("Msv: 21T1020113\n");
     cout<<"-----\n";
     int n;
     LOG_DT("Xau Q: ");
